@@ -14,7 +14,7 @@ import java.util.Locale;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @ExtendWith(ResultAnalyzer.class)
 public class MainTest {
@@ -151,7 +151,4 @@ public class MainTest {
         assertThat(midDeveloper, instanceOf(Employee.class));
         assertThat(seniorDeveloper, instanceOf(Employee.class));
     }
-
-
-
 }
